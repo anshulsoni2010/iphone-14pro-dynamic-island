@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Apple - iPhone 14</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://iphone-14.netlify.app/Images/favicon.png" />
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="box">
+        <div class="inner">
+          <div class="island_popup">
+            <div class="content">
+              <div class="details">
+                <div class="imgBx">
+                  <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHX31emZxJW1g/profile-displayphoto-shrink_400_400/0/1657254173459?e=1669852800&v=beta&t=1v_NhcTb0C73t5wukJ8qr8Fr8jU6eB1DAPOJ6URsYOE" alt="" />
+                </div>
+                <p>Anshul soni</p>
+              </div>
+              <div class="action">
+                <ion-icon name="call" class="red"></ion-icon>
+                <ion-icon name="call" class="green"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i class="btn btn1"></i>
+        <i class="btn btn2"></i>
+        <i class="btn btn3"></i>
+        <i class="rightSideBtn"></i>
+      </div>
+    </div>
+    <footer>
+      Created by
+      <a href="https://anshulsoni.netlify.app">Anshul Soni</a>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      let popup = document.querySelector(".island_popup");
+      popup.onclick = function () {
+        popup.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
